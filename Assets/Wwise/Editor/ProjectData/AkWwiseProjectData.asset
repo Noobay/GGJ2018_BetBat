@@ -1,0 +1,508 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eebde5c86b2ae4892107ef5ef5c136, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{DAD7E5D5-086B-4673-B02F-A9B93071736B}'
+    m_lastTimePsrt1: -777260288
+    m_lastTimePart2: -1999280746
+    List:
+    - Name: Bat_Main_Projectile
+      Path: Default Work Unit\Bat_Main_Projectile
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bat_Main_Projectile
+        ObjectType: 3
+      ID: 562788312
+      Guid: 7119ad2ab7f6fa4cb6e51674e91d3571
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Bat_Sec_Explosion_By_Enemy
+      Path: Default Work Unit\Bat_Sec_Explosion_By_Enemy
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bat_Sec_Explosion_By_Enemy
+        ObjectType: 3
+      ID: -1330711107
+      Guid: 0ac6f5adaf68604292f4581bcd830862
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Bat_Sec_Finger_Swoosh
+      Path: Default Work Unit\Bat_Sec_Finger_Swoosh
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bat_Sec_Finger_Swoosh
+        ObjectType: 3
+      ID: 1149443222
+      Guid: cd06db7c6a4530419c22811b960d1300
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Enemy_Hit_By_Bat_Sec
+      Path: Default Work Unit\Enemy_Hit_By_Bat_Sec
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy_Hit_By_Bat_Sec
+        ObjectType: 3
+      ID: -1147422551
+      Guid: 35630582ba34f24b877e68353743373d
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+    - Name: Game_Play
+      Path: Default Work Unit\Game_Play
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_Play
+        ObjectType: 3
+      ID: 465026768
+      Guid: 7423d984af073545b95e6197c3113e45
+      minDuration: 0
+      maxDuration: 0
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2429535E-8905-4508-907B-EA2937C99901}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{7ADB59B2-3F15-49F7-9117-D2DEE1A54C0D}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List:
+    - Name: Game_States
+      Path: Default Work Unit\Game_States
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_States
+        ObjectType: 9
+      ID: -1573472816
+      Guid: 0dfb285357d6504faa170b0652d9de15
+      values:
+      - Anticipation
+      - Battle
+      - End_Home
+      - None
+      - Opening
+      ValueIcons:
+      - ElementName: Anticipation
+        ObjectType: 8
+      - ElementName: Battle
+        ObjectType: 8
+      - ElementName: End_Home
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Opening
+        ObjectType: 8
+      valueIDs: cead155fffc51bafbec1f555db3ba32cd7d3316d
+      ValueGuids:
+      - bytes: 6ef429eb4e31a44ea7be20899151c4c4
+      - bytes: dcdd3558b55a934683293c3ea100aa81
+      - bytes: 22c4daf74fea7f4b88fbeb44fea2a968
+      - bytes: 7c97aac5f4d97440bb126a3eac38d755
+      - bytes: 34c2f672fd9dee4788c114f1856de2ac
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{9F619944-347A-4775-8F2B-F6029303451D}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{175C70EE-534A-495F-8E5A-106264E5FA92}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List:
+    - Name: BatMission
+      Path: Default Work Unit\BatMission
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BatMission
+        ObjectType: 7
+      ID: 2103209180
+      Guid: ddbcb1514961df468ab518c731105374
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B6FF3A0A-3038-4601-A670-A1797B896DB5}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List:
+    - Name: Closeness_To_Finish_Line
+      Path: Default Work Unit\Closeness_To_Finish_Line
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Closeness_To_Finish_Line
+        ObjectType: 13
+      ID: -1418621715
+      Guid: 7f810041c9e1344681c5e5def5df8d8c
+    - Name: Secondary_Bats_Number
+      Path: Default Work Unit\Secondary_Bats_Number
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Secondary_Bats_Number
+        ObjectType: 13
+      ID: 1975707268
+      Guid: 17dcb97922ab094bbe3a70a470a35bac
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    ParentPhysicalPath: 
+    Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List:
+    - Name: SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      ID: 1351367891
+      Guid: 59062ef746431c4ea1b1dab46a05101e
+    - Name: SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      ID: -1292209176
+      Guid: 37fe2d2f9e4f944d83d853cca39781ad
+    - Name: SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      ID: 1029930033
+      Guid: dc79aea23acaba4696529986c322a87b
+    - Name: SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      ID: -1646418679
+      Guid: 45b4e209a3c47f44b3ca818a1d925ef7
+    - Name: SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      ID: -447042342
+      Guid: 1a81b7e32f7b0f49b44f5fe51b468041
+    - Name: SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      ID: 822163944
+      Guid: ab9048a3d5b92645a64d5290c43ef2dc
+    - Name: SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      ID: -1220270574
+      Guid: efeb291393a12e47a38c64668b494879
+    - Name: SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      ID: -579304704
+      Guid: db8c3fe9d1063747acaf7cd44bbed783
+    - Name: SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      ID: -1091570167
+      Guid: 2ca76f537e8c8b4cae03ef34fdadc314
+    - Name: SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      ID: -134719478
+      Guid: 197ba8edaa73a0409f192073606db710
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{8B8422AF-080D-427D-9B5C-D16A589B4BA7}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List:
+    - Name: Bat_Main_Projectile
+      Path: Default Work Unit\Sound FXs\Bat_Main_Projectile
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sound FXs
+        ObjectType: 4
+      - ElementName: Bat_Main_Projectile
+        ObjectType: 14
+      ID: 562788312
+      Guid: 99ed20ea352f1541a707a7f6b6050266
+    - Name: Bat_Sec_Explosion_By_Enemy
+      Path: Default Work Unit\Sound FXs\Bat_Sec_Explosion_By_Enemy
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sound FXs
+        ObjectType: 4
+      - ElementName: Bat_Sec_Explosion_By_Enemy
+        ObjectType: 14
+      ID: -1330711107
+      Guid: b6fc4674a823e249b55573f8d378839f
+    - Name: Bat_Sec_Finger_Swoosh
+      Path: Default Work Unit\Sound FXs\Bat_Sec_Finger_Swoosh
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sound FXs
+        ObjectType: 4
+      - ElementName: Bat_Sec_Finger_Swoosh
+        ObjectType: 14
+      ID: 1149443222
+      Guid: fa30a25fd8a5b54ba0098eb95bec38b2
+    - Name: Enemy_Hit_By_Bat_Sec
+      Path: Default Work Unit\Sound FXs\Enemy_Hit_By_Bat_Sec
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sound FXs
+        ObjectType: 4
+      - ElementName: Enemy_Hit_By_Bat_Sec
+        ObjectType: 14
+      ID: -1147422551
+      Guid: a151f446c2a55844a315eb77b4dff873
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{C9C22CF0-3656-49D9-A7F6-D59CC7F5584E}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    ParentPhysicalPath: 
+    Guid: '{463D666B-3CA8-4FA5-8B4A-5FEF12B883F6}'
+    m_lastTimePsrt1: -1553735680
+    m_lastTimePart2: -1999280944
+    List:
+    - Name: Acoustic_Banner
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+      ID: -126323319
+      Guid: f2532d2fccda8e408b8898b1b52a26d6
+    - Name: Anechoic
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+      ID: 1873957695
+      Guid: 32c20a8be202de4ebeacfdd1a900e3ed
+    - Name: Brick
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+      ID: 504532776
+      Guid: a9a586b004f2534ca838bdb18b18f6d6
+    - Name: Carpet
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+      ID: -1882360988
+      Guid: 8975223456dc604296c4b9f4b669092b
+    - Name: Concrete
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+      ID: 841620460
+      Guid: 001cf85c9628e04aaf7c3080bdaba682
+    - Name: Cork_Tiles
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+      ID: -1099468548
+      Guid: 19c9d2305f92434189063dbb3c4ae5e2
+    - Name: Curtains
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+      ID: -1366806192
+      Guid: 339ee6f8975c6849b508a1535f2d66e8
+    - Name: Drywall
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+      ID: -624659732
+      Guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+    - Name: Fabric
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+      ID: 1970351858
+      Guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+    - Name: Mountain
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+      ID: 513139656
+      Guid: 313793c51a00b44a98dd9b033a8c8eab
+    - Name: Tile
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+      ID: -1657378743
+      Guid: c4da82a82a13b747ba9db9907ba29cc0
+    - Name: Wood
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+      ID: 2058049674
+      Guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+    - Name: Wood_Bright
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+      ID: -32444547
+      Guid: e5d1857ba2c1634e9a13cec54b641adc
+    - Name: Wood_Deep
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+      ID: 1755085759
+      Guid: 8e474652dac50c4ea0dec98d1479529a
+  ExpandedItems:
+  - /BatMission
+  - /BatMission/Events
+  - /BatMission/Events/Default Work Unit
+  - /BatMission/States
+  - /BatMission/States/Default Work Unit
+  - /BatMission/States/Default Work Unit/Game_States
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4
