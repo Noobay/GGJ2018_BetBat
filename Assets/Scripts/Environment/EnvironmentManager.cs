@@ -14,11 +14,11 @@ public class EnvironmentManager : MonoBehaviour {
 
     private void Awake()
     {
-        _sceneGenerators = new BaseSceneGenerator[_enemyGenerators.Length + _sceneryGenerators.Length - 2];
+        _sceneGenerators = new BaseSceneGenerator[_enemyGenerators.Length + _sceneryGenerators.Length];
 
 
         _sceneryGenerators.CopyTo(_sceneGenerators, 0);
-        _enemyGenerators.CopyTo(_sceneGenerators, _sceneryGenerators.Length - 2);
+        _enemyGenerators.CopyTo(_sceneGenerators, _sceneryGenerators.Length);
 
 
         // minions ignore collision with each other
