@@ -1,0 +1,38 @@
+Event	ID	Name			Wwise Object Path	Notes
+	465026768	Game_Play			\Default Work Unit\Game_Play	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2721494480	Game_States			\Default Work Unit\Game_States	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Game_States			
+	1442169278	End_Home	Game_States			
+	1595256270	Anticipation	Game_States			
+	1831982039	Opening	Game_States			
+	2937832959	Battle	Game_States			
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	562788312	Bat_Main_Projectile			\Default Work Unit\Sound FXs\Bat_Main_Projectile	
+	1149443222	Bat_Sec_Finger_Swoosh			\Default Work Unit\Sound FXs\Bat_Sec_Finger_Swoosh	
+	2964256189	Bat_Sec_Explosion_By_Enemy			\Default Work Unit\Sound FXs\Bat_Sec_Explosion_By_Enemy	
+	3147544745	Enemy_Hit_By_Bat_Sec			\Default Work Unit\Sound FXs\Enemy_Hit_By_Bat_Sec	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39948137	BatMissions_Music - Instrument - End_Home_Pad_3M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Music - Instrument - End_Home_Pad_3M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\End_Home_Segment\End_Home\BatMissions_Music - Instrument - End_Home_Pad_3M_114BPM		1008062
+	403981292	BatMissions_Audio - Instrument - Anticipation_Pad_Want_Home_4M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Anticipation_Pad_Want_Home_4M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\AnticipationToBattleBridge\BatMissions_Audio - Instrument - Anticipation_Pad_Want_Home_4M_114BPM		2419260
+	463490207	BatMissions_Audio - Instrument - Opening_Hook_2M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Opening_Hook_2M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\Opening_Segment\Openning_Theme\BatMissions_Audio - Instrument - Opening_Hook_2M_114BPM		1612860
+	589164393	BatMissions_Audio - Instrument - Opening_Ambience_8M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Opening_Ambience_8M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\Opening_Segment\Openning_Theme\BatMissions_Audio - Instrument - Opening_Ambience_8M_114BPM		4032056
+	591069320	BatMissions_Audio - Instrument - Anticipation_Drums_Before_Battle_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Anticipation_Drums_Before_Battle_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\Anticipation_Segment\Anticiation_Theme\BatMissions_Audio - Instrument - Anticipation_Drums_Before_Battle_114BPM		1209660
+	618876738	BatMissions_Audio - Instrument - Battle_Drums_Fast_2M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Battle_Drums_Fast_2M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\Battle_Segment\Battle\BatMissions_Audio - Instrument - Battle_Drums_Fast_2M_114BPM		1612860
+	622732449	BatMissions_Audio - Instrument - Battle_Arpeggios_2M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Battle_Arpeggios_v2_2M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\Battle_Segment\Battle\BatMissions_Audio - Instrument - Battle_Arpeggios_2M_114BPM		1612860
+	632154475	BatMissions_Audio - Instrument - Anticipation_Bass_4M_PRE_1M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Anticipation_Bass_4M_PRE_1M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\AnticipationToBattleBridge\BatMissions_Audio - Instrument - Anticipation_Bass_4M_PRE_1M_114BPM		3225656
+	657839342	BatMissions_SFX_Bat_Sec_Finger_Swoosh	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_SFX_Bat_Sec_Finger_Swoosh_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\BatMissions_SFX - Bat_Sec_Finger_Swoosh\BatMissions_SFX_Bat_Sec_Finger_Swoosh		45460
+	671015102	BatMissions_SFX - Group - Bat_Secondary_Explosion	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_SFX - Group - Bat_Secondary_Explosion_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\BatMissions_SFX - Bat_Sec_Explosion\BatMissions_SFX - Group - Bat_Secondary_Explosion		201664
+	693013875	BatMissions_Audio - Instrument - Battle_Bass_8M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Battle_Bass_8M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\Battle_Segment\Battle\BatMissions_Audio - Instrument - Battle_Bass_8M_114BPM		4032056
+	831492283	BatMissions_Audio - Instrument - Battle_Arpeggios_2M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - Battle_Arpeggios_2M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\Battle_Segment\Battle\BatMissions_Audio - Instrument - Battle_Arpeggios_2M_114BPM		1612860
+	831834236	BatMissions_SFX - Group - Enemy_Hit	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_SFX - Group - Enemy_Hit_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\BatMissions_SFX - Enemy_Hit\BatMissions_SFX - Group - Enemy_Hit		201664
+	847020331	BatMissions_Audio - Group - GRP Bat Projectile	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Group - GRP Bat Projectile_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\BatMissions_SFX - Bat_Main_Projectile\BatMissions_Audio - Group - GRP Bat Projectile		837964
+	873787329	BatMissions_Music - Instrument - End_Home_Drums_3M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Music - Instrument - End_Home_Drums_3M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\End_Home_Segment\End_Home\BatMissions_Music - Instrument - End_Home_Drums_3M_114BPM		1008062
+	963283558	BatMissions_Music - Instrument - End_Home_Arpeggios_3M_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Music - Instrument - End_Home_Arpeggios_3M_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Themes\End_Home_Segment\End_Home\BatMissions_Music - Instrument - End_Home_Arpeggios_3M_114BPM		1008062
+	967436843	BatMissions_Audio - Instrument - AnticipationToBattle Bridge_114BPM	C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\SFX\BatMissions_Audio - Instrument - AnticipationToBattle Bridge_114BPM_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\AnticipationToBattleBridge\BatMissions_Audio - Instrument - AnticipationToBattle Bridge_114BPM		1209660
+

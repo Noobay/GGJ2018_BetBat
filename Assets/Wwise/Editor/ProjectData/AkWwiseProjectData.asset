@@ -492,9 +492,8 @@ MonoBehaviour:
   - /BatMission
   - /BatMission/Events
   - /BatMission/Events/Default Work Unit
-  - /BatMission/States
-  - /BatMission/States/Default Work Unit
-  - /BatMission/States/Default Work Unit/Game_States
+  - /BatMission/SoundBanks
+  - /BatMission/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6FF3A0A-3038-4601-A670-A1797B896DB5}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B6FF3A0A-3038-4601-A670-A1797B896DB5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Secondary_Bats_Number" ID="{79B9DC17-AB22-4B09-BE3A-70A470A35BAC}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="5"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Closeness_To_Finish_Line" ID="{4100817F-E1C9-4634-81C5-E5DEF5DF8D8C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

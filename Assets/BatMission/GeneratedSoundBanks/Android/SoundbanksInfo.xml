@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\user\Documents\My Repositories\GGJ2018\Assets\BatMission\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2103209180" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\BatMission</ObjectPath>
+			<ShortName>BatMission</ShortName>
+			<Path>BatMission.bnk</Path>
+			<IncludedEvents>
+				<Event Id="465026768" Name="Game_Play" ObjectPath="\Events\Default Work Unit\Game_Play"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="39948137" Language="SFX">
+					<ShortName>BatMissions_Music - Instrument - End_Home_Pad_3M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Music - Instrument - End_Home_Pad_3M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="403981292" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Anticipation_Pad_Want_Home_4M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Anticipation_Pad_Want_Home_4M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="463490207" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Opening_Hook_2M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Opening_Hook_2M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="589164393" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Opening_Ambience_8M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Opening_Ambience_8M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="591069320" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Anticipation_Drums_Before_Battle_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Anticipation_Drums_Before_Battle_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="618876738" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Battle_Drums_Fast_2M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Battle_Drums_Fast_2M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="622732449" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Battle_Arpeggios_v2_2M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Battle_Arpeggios_v2_2M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="632154475" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Anticipation_Bass_4M_PRE_1M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Anticipation_Bass_4M_PRE_1M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="657839342" Language="SFX">
+					<ShortName>BatMissions_SFX_Bat_Sec_Finger_Swoosh.wav</ShortName>
+					<Path>SFX\BatMissions_SFX_Bat_Sec_Finger_Swoosh_F17FB28C.wem</Path>
+				</File>
+				<File Id="671015102" Language="SFX">
+					<ShortName>BatMissions_SFX - Group - Bat_Secondary_Explosion.wav</ShortName>
+					<Path>SFX\BatMissions_SFX - Group - Bat_Secondary_Explosion_F17FB28C.wem</Path>
+				</File>
+				<File Id="693013875" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Battle_Bass_8M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Battle_Bass_8M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="831492283" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - Battle_Arpeggios_2M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - Battle_Arpeggios_2M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="831834236" Language="SFX">
+					<ShortName>BatMissions_SFX - Group - Enemy_Hit.wav</ShortName>
+					<Path>SFX\BatMissions_SFX - Group - Enemy_Hit_F17FB28C.wem</Path>
+				</File>
+				<File Id="847020331" Language="SFX">
+					<ShortName>BatMissions_Audio - Group - GRP Bat Projectile.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Group - GRP Bat Projectile_F17FB28C.wem</Path>
+				</File>
+				<File Id="873787329" Language="SFX">
+					<ShortName>BatMissions_Music - Instrument - End_Home_Drums_3M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Music - Instrument - End_Home_Drums_3M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="963283558" Language="SFX">
+					<ShortName>BatMissions_Music - Instrument - End_Home_Arpeggios_3M_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Music - Instrument - End_Home_Arpeggios_3M_114BPM_F17FB28C.wem</Path>
+				</File>
+				<File Id="967436843" Language="SFX">
+					<ShortName>BatMissions_Audio - Instrument - AnticipationToBattle Bridge_114BPM.wav</ShortName>
+					<Path>SFX\BatMissions_Audio - Instrument - AnticipationToBattle Bridge_114BPM_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
