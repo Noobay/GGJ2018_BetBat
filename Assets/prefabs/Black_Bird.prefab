@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50925967086705198}
   - component: {fileID: 61592419288373766}
   - component: {fileID: 114567684651472464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Black_Bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnTransform: {fileID: 0}
-  _swipeStrength: 200
+  _swipeMaxStrength: 4
+  _swipeStrengthMutliplier: 1
 --- !u!212 &212562749625020240
 SpriteRenderer:
   m_ObjectHideFlags: 1
