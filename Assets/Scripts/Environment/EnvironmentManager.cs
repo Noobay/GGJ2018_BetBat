@@ -2,8 +2,6 @@
 
 public class EnvironmentManager : MonoBehaviour {
 
-    private readonly int GENERATORS_ARRAYS_COUNT = 2;
-
     [SerializeField]
     private SceneryGenerator[] _sceneryGenerators;
 
@@ -22,9 +20,11 @@ public class EnvironmentManager : MonoBehaviour {
 
 
         // minions ignore collision with each other
-        int layerMask = LayerMask.NameToLayer("Friendly");
-        Physics.IgnoreLayerCollision(layerMask, layerMask, true);
-
+        int friendlyLayerMask = LayerMask.NameToLayer("Friendly");
+        int enemyLayerMask = LayerMask.NameToLayer("Enemy");
+        int bordersLayerMask = LayerMask.NameToLayer("Borders");
+        Physics2D.IgnoreLayerCollision(friendlyLayerMask, friendlyLayerMask, true);
+        Physics2D.IgnoreLayerCollision(enemyLayerMask, bordersLayerMask, true);
     }
 
     void Start()
