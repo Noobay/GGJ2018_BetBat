@@ -46,12 +46,9 @@ public class LivesManager : MonoBehaviour {
         float startTime = Time.time;
         while ((Time.time - startTime) <= _instance._deadBatCooldown)
         {
-            Debug.Log(Time.time - startTime);
-
             yield return null;
         }
 
-        Debug.Log("yielding revive");
         _deadQueue.Dequeue().Revive();
 
         yield return ReviveDeadBats();

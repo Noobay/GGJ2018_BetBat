@@ -83,7 +83,7 @@ public class SceneryGenerator : BaseSceneGenerator {
             screenLocation = _screenTopRightEdge / 2f;
         }
 
-        GameObject tempObject = Object.Instantiate(scenereyObject, screenLocation, rotation);
+        Object.Instantiate(scenereyObject, screenLocation, rotation);
 
     }
 }
